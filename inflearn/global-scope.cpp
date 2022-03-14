@@ -2,12 +2,17 @@
 
 using namespace std;
 
-static int  g_a = 1;
+// forward declaration
+extern void doSomething();
+extern int a;
+
 
 int main()
 {
 
-    int a = 1;
+    doSomething();
+
+    cout << a << endl;
     
     return 0;
 }
