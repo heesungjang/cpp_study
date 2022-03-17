@@ -14,9 +14,7 @@ class Course {
         Course(const string name, const string examiner, const int semOffer)
             : _name(name), _examiner(examiner), _semOffer(semOffer){}
         
-        string getName() {
-            return _name;
-        }
+        string getName() const {return _name;}
 };
 
 
